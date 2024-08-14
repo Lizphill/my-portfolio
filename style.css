@@ -307,7 +307,7 @@ border-bottom: 3px solid var(--main-color);
   font-size: 16px;
 }
 @media(max-width:1024px){
-  #menu-icons{
+  #menu-icon{
     display: block;
   }
   .navbar{
