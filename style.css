@@ -340,7 +340,7 @@ font-weight: 800;
 .project-card{
   height: 600px;
   max-width: 450px;
-  background-color: hsl(315, 88%, 84%);
+  background-color: hsl(314, 18%, 33%);
   backdrop-filter: blur(30px) ;
   border: 2px solid var(--main-color);
   border-radius: 5rem;
