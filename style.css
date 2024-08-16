@@ -474,9 +474,6 @@ border-bottom: 3px solid var(--main-color);
 .about-img img{
   width: 52vw;
 }
-.project-card img{
-  max-width: 27vw;
-}
 .contact form{
   flex-direction: column;
 }
