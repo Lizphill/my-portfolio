@@ -28,7 +28,7 @@ body{
   top: 0;
   left: 0;
   padding: 4rem 12%;
-  background: rgb(0, 0, 0.3);
+  background: rgb(46, 44, 44);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ body{
 #menu-icon{
   font-size: 3.6rem;
   color: var(--main-color);
-  display: block;
+  display: none;
 }
 .logo{
   font-size: 3rem;
@@ -159,7 +159,6 @@ section{
   color: black;
 }
 .about{
-  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -335,5 +334,27 @@ border-bottom: 3px solid var(--main-color);
   .home{
     flex-direction: column-reverse;
     margin: 5rem 0;
+    gap: 5rem;
   }
+  .home-content{
+    align-items: center;
+    text-align: center;
+  }
+  .home-img img{
+    width: 52vw;
+  }
+  .about{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .about h2{
+    text-align: center;
+    margin: 2rem 0;
+  }
+.about-img img{
+  width: 52vw;
+}
+.contact form{
+  flex-direction: column;
+}
 }
