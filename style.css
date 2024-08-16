@@ -204,7 +204,7 @@ section{
  }
  81%,
  100%{
-  content: "Computer Engr";
+  content: "Computer Scst.";
  }
 }
 @keyframes typing{
@@ -325,6 +325,52 @@ font-weight: 800;
   font-weight: 600;
   line-height: 1.7;
 }
+.projects{
+  background: url(probacckg.jpeg)center no-repeat;
+  background-size: cover;
+}
+.projects-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  place-items: center;
+  margin: 5rem 0;
+  gap: 3rem;
+  row-gap: 5rem;
+}
+.project-card{
+  height: 600px;
+  max-width: 450px;
+  background-color: hsl(315, 88%, 84%);
+  backdrop-filter: blur(30px) ;
+  border: 2px solid var(--main-color);
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 5rem 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 5px var(--main-color);
+  transition: 0.4s ease;
+}
+.project-card:hover{
+  box-shadow: 0 0 25px var(--main-color),
+              0 0 50px var(--main-color);
+  transform: scale(1.02);
+}
+.project-card img{
+  max-width: 20vw;
+  object-fit: cover;
+}
+.project-card h3{
+  font-size: 3rem;
+}
+.project-card p{
+  font-size: 1.6rem;
+}
 .contact{
   background-color: var(--second-bg-color);
 }
@@ -427,6 +473,9 @@ border-bottom: 3px solid var(--main-color);
   }
 .about-img img{
   width: 52vw;
+}
+.project-card img{
+  max-width: 27vw;
 }
 .contact form{
   flex-direction: column;
