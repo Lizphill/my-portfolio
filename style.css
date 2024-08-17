@@ -326,8 +326,7 @@ font-weight: 800;
   line-height: 1.7;
 }
 .projects{
-  background: url(probacckg.jpeg)center no-repeat;
-  background-size: cover;
+  background-color: rgb(27, 1, 0);
 }
 .projects-box{
   display: grid;
