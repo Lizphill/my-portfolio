@@ -326,7 +326,7 @@ font-weight: 800;
   line-height: 1.7;
 }
 .projects{
-  background-color: rgb(27, 1, 0);
+  background-color: rgb(2, 80, 90);
 }
 .projects-box{
   display: grid;
@@ -339,7 +339,7 @@ font-weight: 800;
 .project-card{
   height: 600px;
   max-width: 450px;
-  background-color: hsl(314, 18%, 33%);
+  background-color: hsl(211, 96%, 10%);
   backdrop-filter: blur(30px) ;
   border: 2px solid var(--main-color);
   border-radius: 5rem;
@@ -463,7 +463,7 @@ border-bottom: 3px solid var(--main-color);
     width: 52vw;
   }
   .about{
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
   }
   .about h2{
